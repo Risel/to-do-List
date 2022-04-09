@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <h2>To-Do List</h2>
+            <div class="create_new_todo">
+                <input type="text" id = "input-task" placeholder ="Какие у вас планы?">
+                <button id="add-task-button" type="submit" class="addBtn">Добавить задачу</button>
+            </div>
+    </header>
+    <section class="toDoBox">
+        <h3>Задачи</h3>
+        <ul id="task-list">
+            <li class="task-box">
+                <input type="checkbox" id="checkbox1" class="custom-checkbox">
+                <span class="task">Приветствую вас в своём To-Do</span>
+                <button class="delete-btn">Удалить задачу</button>
+            </li>
+            <li class="task-box">
+                <input type="checkbox" id="checkbox2" class="custom-checkbox">
+                <span class="task">Нажмите на галочку если задание выполнено</span>
+                <button class="delete-btn">Удалить задачу</button>
+            </li>
+            <li class="task-box">
+                <input type="checkbox" id="checkbox3" class="custom-checkbox">
+                <span class="task">Удалите задачу, если она вас больше не интересует</span>
+                <button class="delete-btn">Удалить задачу</button>
+            </li>
+        </ul>
+    </section>  
+    <script src="script.js"></script>
+</body>
+</html>
