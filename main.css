@@ -139,4 +139,3 @@ input[type="checkbox"]:checked ~.task {
 .task-box .delete-btn:active{
     opacity: 0.4;
 }
-
